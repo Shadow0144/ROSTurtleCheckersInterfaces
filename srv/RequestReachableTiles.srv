@@ -1,0 +1,3 @@
+string piece_name
+---
+uint64[] reachable_tile_indices
