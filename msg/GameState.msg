@@ -1,0 +1,1 @@
+uint64 game_state # 0 black to move, 1 red to move, 2 game complete
