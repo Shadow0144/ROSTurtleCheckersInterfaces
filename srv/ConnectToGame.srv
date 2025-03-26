@@ -1,4 +1,4 @@
 string player_name
 ---
 string lobby_name
-bool black_player
+uint64 player_color # 0 - none, 1 - black, 2 - red
