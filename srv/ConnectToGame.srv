@@ -2,3 +2,4 @@ string player_name
 ---
 string lobby_name
 uint64 player_color # 0 - none, 1 - black, 2 - red
+uint64 game_state # 0 - connecting, 1 - connected, 2 - black to move, 3 - red to move, 4 - game complete
