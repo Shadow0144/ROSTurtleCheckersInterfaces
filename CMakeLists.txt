@@ -20,13 +20,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/AnnounceGameResult.msg"
-  "msg/StartNewGame.msg"
+  "msg/DeclareWinner.msg"
+  "msg/GameStart.msg"
+  "msg/PlayerReady.msg"
   "msg/UpdateBoard.msg"
-  "msg/UpdateGameState.msg"
   "srv/ConnectToGame.srv"
-  "srv/RequestReachableTiles.srv"
   "srv/RequestPieceMove.srv"
+  "srv/RequestReachableTiles.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)

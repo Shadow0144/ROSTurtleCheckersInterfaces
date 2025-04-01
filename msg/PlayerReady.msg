@@ -1,0 +1,2 @@
+string lobby_name
+string player_name

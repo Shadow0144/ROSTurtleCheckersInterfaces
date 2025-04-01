@@ -1,3 +1,4 @@
-string piece_name
+string lobby_name
+uint64 tile_index
 ---
 uint64[] reachable_tile_indices
