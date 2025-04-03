@@ -1,5 +1,7 @@
 string lobby_name
 uint64 source_tile_index
 uint64 destination_tile_index
+uint64 checksum_sig
 ---
 bool move_accepted
+uint64 checksum_sig

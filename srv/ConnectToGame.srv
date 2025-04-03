@@ -1,4 +1,6 @@
 string player_name
+uint64 player_public_key
 ---
 string lobby_name
 uint64 player_color # 0 - none, 1 - black, 2 - red
+uint64 game_master_public_key

@@ -1,4 +1,6 @@
 string lobby_name
 uint64 tile_index
+uint64 checksum_sig
 ---
 uint64[] reachable_tile_indices
+uint64 checksum_sig
