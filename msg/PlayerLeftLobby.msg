@@ -1,5 +1,4 @@
 string lobby_name
 string lobby_id
 string player_name
-bool ready
 uint64 checksum_sig

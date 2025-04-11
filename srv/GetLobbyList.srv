@@ -1,0 +1,6 @@
+---
+string[] lobby_names
+string[] lobby_ids
+string[] joined_black_player_names
+string[] joined_red_player_names
+uint64 checksum_sig

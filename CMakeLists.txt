@@ -22,9 +22,16 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DeclareWinner.msg"
   "msg/GameStart.msg"
+  "msg/LeaveLobby.msg"
+  "msg/PlayerJoinedLobby.msg"
+  "msg/PlayerLeftLobby.msg"
   "msg/PlayerReady.msg"
   "msg/UpdateBoard.msg"
-  "srv/ConnectToGame.srv"
+  "srv/ConnectToGameMaster.srv"
+  "srv/CreateLobby.srv"
+  "srv/GetLobbyList.srv"
+  "srv/JoinLobby.srv"
+  "srv/RequestBoardState.srv"
   "srv/RequestPieceMove.srv"
   "srv/RequestReachableTiles.srv"
 )

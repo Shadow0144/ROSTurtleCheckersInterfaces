@@ -1,0 +1,15 @@
+string player_name
+string lobby_name
+string lobby_id
+uint64 desired_player_color # 0 - random, 1 - black, 2 - red
+uint64 checksum_sig
+---
+bool joined # If false, check error_msg
+string error_msg
+string lobby_name
+string lobby_id
+string black_player_name
+string red_player_name
+bool black_player_ready
+bool red_player_ready
+uint64 checksum_sig
