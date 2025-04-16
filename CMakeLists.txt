@@ -21,6 +21,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DeclareWinner.msg"
+  "msg/DrawOffered.msg"
   "msg/Forfit.msg"
   "msg/GameStart.msg"
   "msg/LeaveLobby.msg"
