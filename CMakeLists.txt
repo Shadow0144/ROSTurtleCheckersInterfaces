@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PlayerJoinedLobby.msg"
   "msg/PlayerLeftLobby.msg"
   "msg/PlayerReady.msg"
+  "msg/PlayerReadied.msg"
   "msg/UpdateBoard.msg"
   "srv/ConnectToGameMaster.srv"
   "srv/CreateLobby.srv"
