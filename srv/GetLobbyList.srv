@@ -1,6 +1,7 @@
 ---
 string[] lobby_names
 string[] lobby_ids
+bool[] has_passwords
 string[] joined_black_player_names
 string[] joined_red_player_names
 uint64 checksum_sig

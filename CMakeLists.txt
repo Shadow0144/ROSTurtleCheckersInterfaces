@@ -6,9 +6,9 @@ if(NOT CMAKE_C_STANDARD)
   set(CMAKE_C_STANDARD 99)
 endif()
 
-# Default to C++14
+# Default to C++17
 if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
+  set(CMAKE_CXX_STANDARD 17)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -26,6 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Forfit.msg"
   "msg/GameStart.msg"
   "msg/LeaveLobby.msg"
+  "msg/LogOutAccount.msg"
   "msg/OfferDraw.msg"
   "msg/PlayerJoinedLobby.msg"
   "msg/PlayerLeftLobby.msg"
@@ -33,9 +34,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PlayerReadied.msg"
   "msg/UpdateBoard.msg"
   "srv/ConnectToGameMaster.srv"
+  "srv/CreateAccount.srv"
   "srv/CreateLobby.srv"
   "srv/GetLobbyList.srv"
   "srv/JoinLobby.srv"
+  "srv/LogInAccount.srv"
   "srv/RequestBoardState.srv"
   "srv/RequestPieceMove.srv"
   "srv/RequestReachableTiles.srv"

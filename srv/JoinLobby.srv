@@ -1,8 +1,9 @@
 string player_name
 string lobby_name
 string lobby_id
+uint64 encrypted_hashed_lobby_password
 uint64 desired_player_color # 0 - random, 1 - black, 2 - red
-uint64 player_public_key
+uint64 checksum_sig
 ---
 string lobby_name
 string lobby_id
