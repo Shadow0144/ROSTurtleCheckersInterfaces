@@ -1,0 +1,5 @@
+string lobby_name
+string lobby_id
+string requesting_player_name
+string kick_player_name
+uint64 checksum_sig

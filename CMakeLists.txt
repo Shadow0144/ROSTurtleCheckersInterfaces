@@ -20,11 +20,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/ChatMessage.msg"
   "msg/DeclareWinner.msg"
   "msg/DrawDeclined.msg"
   "msg/DrawOffered.msg"
   "msg/Forfit.msg"
   "msg/GameStart.msg"
+  "msg/KickPlayer.msg"
   "msg/LeaveLobby.msg"
   "msg/LogOutAccount.msg"
   "msg/OfferDraw.msg"
@@ -33,6 +35,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PlayerReady.msg"
   "msg/PlayerReadied.msg"
   "msg/UpdateBoard.msg"
+  "msg/UpdateChat.msg"
+  "msg/UpdateLobbyOwner.msg"
   "srv/ConnectToGameMaster.srv"
   "srv/CreateAccount.srv"
   "srv/CreateLobby.srv"
