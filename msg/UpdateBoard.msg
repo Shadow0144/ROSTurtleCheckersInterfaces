@@ -1,5 +1,7 @@
 string lobby_name
 string lobby_id
+uint64 black_time_remaining_seconds
+uint64 red_time_remaining_seconds
 uint64 source_tile_index
 uint64 destination_tile_index
 bool king_piece # If true, king the piece at destination_tile_index
