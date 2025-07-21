@@ -2,5 +2,6 @@
 string lobby_name
 string lobby_id
 string player_name
+uint64 player_color
 string msg
 uint64 checksum_sig
