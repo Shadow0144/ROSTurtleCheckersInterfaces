@@ -48,6 +48,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/RequestBoardState.srv"
   "srv/RequestPieceMove.srv"
   "srv/RequestReachableTiles.srv"
+  "srv/ResyncBoard.srv"
 )
 
 ament_export_dependencies(rosidl_default_runtime)

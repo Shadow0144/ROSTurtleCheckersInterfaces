@@ -1,0 +1,16 @@
+# Called when a player's board's hash does not match the server's after an update
+string lobby_name
+string lobby_id
+---
+string lobby_name
+string lobby_id
+uint64 black_time_remaining_seconds
+uint64 red_time_remaining_seconds
+uint64 game_state # 0 - connecting, 1 - connected, 2 - black to move, 3 - red to move, 4 - game complete
+uint64 black_pieces_remaining
+uint64 red_pieces_remaining
+string[] turtle_piece_name_per_tile # row-by-column order
+uint64[] turtle_piece_color_per_tile # row-by-column order
+bool[] turtle_piece_is_kinged_per_tile # row-by-column order
+uint64 board_hash # The state of the board as a hash, which should match after this resync
+uint64 checksum_sig
