@@ -1,0 +1,11 @@
+string player_name
+---
+string player_name
+string[] lobby_name_ids
+string[] black_player_names
+string[] red_player_names
+uint64[] winners
+uint64 matches_played
+uint64 matches_won
+uint64 matches_lost
+uint64 matches_drawed
