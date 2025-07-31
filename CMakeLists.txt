@@ -35,6 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PlayerLeftLobby.msg"
   "msg/PlayerReadied.msg"
   "msg/PlayerReady.msg"
+  "msg/SetPlayerBanned.msg"
   "msg/TimerChanged.msg"
   "msg/UpdateBoard.msg"
   "msg/UpdateChat.msg"

@@ -1,0 +1,3 @@
+string player_name
+bool banned
+uint64 authorization_key
