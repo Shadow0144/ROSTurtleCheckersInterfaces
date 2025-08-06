@@ -8,4 +8,4 @@ uint64[] winners
 uint64 matches_played
 uint64 matches_won
 uint64 matches_lost
-uint64 matches_drawed
+uint64 matches_drawn
