@@ -1,0 +1,4 @@
+string reporting_player_name
+string reported_player_name
+string chat_messages
+uint64 checksum_sig
