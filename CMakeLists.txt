@@ -21,13 +21,13 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ChatMessage.msg"
+  "msg/ClientHeartbeat.msg"
   "msg/DeclareWinner.msg"
   "msg/DrawDeclined.msg"
   "msg/DrawOffered.msg"
   "msg/ForceLogoutAccount.msg"
   "msg/Forfit.msg"
   "msg/GameStart.msg"
-  "msg/Heartbeat.msg"
   "msg/KickPlayer.msg"
   "msg/LeaveLobby.msg"
   "msg/LogOutAccount.msg"
@@ -37,6 +37,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PlayerReadied.msg"
   "msg/PlayerReady.msg"
   "msg/ReportPlayer.msg"
+  "msg/ServerHeartbeat.msg"
   "msg/SetPlayerBanned.msg"
   "msg/TimerChanged.msg"
   "msg/UpdateBoard.msg"
