@@ -27,6 +27,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ForceLogoutAccount.msg"
   "msg/Forfit.msg"
   "msg/GameStart.msg"
+  "msg/Heartbeat.msg"
   "msg/KickPlayer.msg"
   "msg/LeaveLobby.msg"
   "msg/LogOutAccount.msg"
