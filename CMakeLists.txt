@@ -25,7 +25,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DeclareWinner.msg"
   "msg/DrawDeclined.msg"
   "msg/DrawOffered.msg"
-  "msg/Forfit.msg"
+  "msg/Forfeit.msg"
   "msg/GameStart.msg"
   "msg/KickPlayer.msg"
   "msg/LeaveLobby.msg"
