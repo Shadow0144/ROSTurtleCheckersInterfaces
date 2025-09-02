@@ -46,6 +46,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UpdateChat.msg"
   "msg/UpdateLobbyOwner.msg"
   "msg/UpdateTimer.msg"
+  "srv/ChangeAccountPassword.srv"
   "srv/ConnectToGameMaster.srv"
   "srv/CreateAccount.srv"
   "srv/CreateLobby.srv"
