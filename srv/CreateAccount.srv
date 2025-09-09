@@ -2,7 +2,7 @@ string player_name
 uint64 encrypted_hashed_player_password
 uint64 player_public_key
 ---
-bool created
+bool created # If false, check error_code
 string player_name
-string error_msg
+uint64 error_code
 uint64 checksum_sig

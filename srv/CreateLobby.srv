@@ -6,10 +6,10 @@ uint64 checksum_sig
 ---
 string lobby_name
 string lobby_id
-bool created # If false, check error_msg
+bool created # If false, check error_code
 string black_player_name
 string red_player_name
 bool black_player_ready
 bool red_player_ready
-string error_msg
+uint64 error_code
 uint64 checksum_sig
